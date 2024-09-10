@@ -4,7 +4,7 @@ use serde::{Deserialize, Serialize};
 pub mod constants {
     pub const CURVE_BN254: &str = "halo2curves::bn256::fr::Fr";
     pub const CURVE_BN254_ARK: &str = "ark_ff::fields::models::fp::Fp<ark_ff::fields::models::fp::montgomery_backend::MontBackend<ark_bn254::fields::fr::FrConfig, 4>, 4>";
-    pub const NOIR_VERSION_0_33: &str = "0.31.0+540bef3597bd3e5775c83ec2ee3c0d4463084b4c";
+    pub const NOIR_VERSION_0_33: &str = "0.33.0+325dac54efb6f99201de9fdeb0a507d45189607d";
 }
 
 mod execute;
